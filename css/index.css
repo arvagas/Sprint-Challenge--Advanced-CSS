@@ -170,14 +170,17 @@ p {
   background-color: #F6F6F6;
   flex-direction: column;
   text-align: center;
-  padding-top: 1%;
+  padding-top: 10px;
   border-bottom: 2px solid #F1F1F1;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .nav-bar nav {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding-top: 1%;
+  padding-top: 8px;
 }
 .nav-bar a {
   text-decoration: none;
@@ -193,6 +196,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 98px;
 }
 .home .intro h2 {
   padding: 15px;
