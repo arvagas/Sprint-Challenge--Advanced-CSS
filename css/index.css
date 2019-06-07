@@ -181,7 +181,7 @@ p {
 }
 .nav-bar a {
   text-decoration: none;
-  padding: 1% 2%;
+  padding: 10px 15px;
   font-size: 1.6rem;
 }
 footer {
@@ -242,6 +242,13 @@ footer {
 .home .walk .walk-text button {
   background-color: #22283A;
   color: White;
+  padding: 5px 15px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+.home .walk .walk-text button:hover {
+  background-color: white;
+  color: #22283A;
   padding: 5px 15px;
   font-size: 1.8rem;
   border-radius: 5px;
