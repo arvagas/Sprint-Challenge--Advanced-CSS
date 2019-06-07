@@ -1,4 +1,21 @@
 // Navigation code here
-.nav-bar() {
+
+.nav-bar {
+    .flex-box();
+    background-color: @nav-bg;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1%;
+    .border();
+
+    nav {
+        .flex-box();
+        padding-top: 1%;
+    }
     
+    a {
+        text-decoration: none;
+        padding: 1% 2%;
+        font-size: 1.6rem;
+    }
 }
