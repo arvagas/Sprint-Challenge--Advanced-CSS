@@ -175,6 +175,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 0.5;
 }
 .nav-bar nav {
   display: flex;
@@ -186,6 +187,12 @@ p {
   text-decoration: none;
   padding: 10px 15px;
   font-size: 1.6rem;
+}
+.nav-bar a:hover {
+  color: #990000;
+}
+.nav-bar:hover {
+  opacity: 1;
 }
 footer {
   color: #22283B;
