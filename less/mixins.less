@@ -1,1 +1,14 @@
 // Mixins Here
+.flex-box(@x:center, @y:center) {
+    display: flex;
+    justify-content: @x;
+    align-content: @y;
+}
+
+.sign-up(@bg-btn:@btn-bg-color, @btn-fnt:White) {
+    background-color: @bg-btn;
+    color: @btn-fnt;
+    padding: 5px 15px;
+    font-size: 1.8rem;
+    border-radius: 5px;
+}
