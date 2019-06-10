@@ -1,1 +1,34 @@
 // Navigation code here
+
+.nav-bar {
+    .flex-box();
+    background-color: @nav-bg;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    .border();
+    //fixed navigation
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+
+    nav {
+        .flex-box();
+        padding-top: 8px;
+    }
+    
+    a {
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 1.6rem;
+    }
+
+    a:hover {
+        color: darken(red, 20%);
+    }
+}
+
+.nav-bar:hover {
+    opacity: 1;
+}
